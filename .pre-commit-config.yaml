@@ -3,7 +3,7 @@ repos:
     hooks:
       - id: pytest
         name: pytest
-        entry: "python3 -m pytest -vvv"
+        entry: "python3 -m pytest -s -v"
         language: system
         pass_filenames: false
         stages: [commit]
